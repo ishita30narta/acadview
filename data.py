@@ -7,5 +7,6 @@ d=datetime.date.today()
 print(d.day)
 print(time.strftime("%b"))'''
 
-datetime.date.strptime("21 jun 2018","%d %b %y")
-print()
+
+print(time.asctime(time.localtime()))
+print(time.strftime("%d"))
