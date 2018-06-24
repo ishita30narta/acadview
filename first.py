@@ -14,7 +14,10 @@ a=len("ishita")
 print(a)
 a=23
 b=2.34
-print(a+b)'''
+print(a+b)
 l=[1,2,3,4,5]
 l.remove(1)
+print(l)'''
+l=[1,2,3,4,5]
+l.append(6)
 print(l)
