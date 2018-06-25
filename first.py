@@ -17,7 +17,13 @@ b=2.34
 print(a+b)
 l=[1,2,3,4,5]
 l.remove(1)
-print(l)'''
+print(l)
 l=[1,2,3,4,5]
 l.append(6)
 print(l)
+arr =[2,3,7]
+i=0
+mul=1
+for i in range(len(arr)):
+    mul=mul*arr[i]
+print(mul)'''
