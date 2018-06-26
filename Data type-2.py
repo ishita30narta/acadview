@@ -28,7 +28,9 @@ p=n-o #(i) difference b/w tw sets
 q=o-p
 print(p)
 print(q)
-print(o)   #(iii) interstion of two sets
+print(o) #(iii) interstion of two sets
+print(n>=m) #subset
+print(n<=m) #superset
 print("\n")
 
 
@@ -47,22 +49,6 @@ print(d)
 
 
 #6
-s="Misssssissippi"
-count=0
-character="i"
-
-for i in s:
-        if (i == character):
-            count=count+1
-print (count)
-text="ishita"
-def count_chars(text):
-	result = 0
-	for char in text:
-		result += 1     # same as result = result + 1
-	return result
-print (count_chars(text))'''
-
 s="Mississippi"
 d={}
 count=0
@@ -73,4 +59,4 @@ def abc(i):
     return count
 for i in s:
     d[i]=abc(i)
-print(d)
+print(d)'''
