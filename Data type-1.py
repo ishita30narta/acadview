@@ -36,7 +36,7 @@ stack.append("Sayima")
 stack.append("Rashika")
 print(stack)
 print(stack.pop())
-print("\n")
+
 
 queue =["Ishita","Prachi","Shivangi","Akanksha"]
 print(queue)

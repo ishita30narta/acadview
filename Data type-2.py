@@ -1,5 +1,5 @@
 #1
-tup1 =('python','c','java')
+'''tup1 =('python','c','java')
 tup2 =(1,2,3,4)
 tup3 =(1.3,3.6,7.8)
 print(len(tup1+tup2+tup3))
@@ -31,15 +31,46 @@ print(q)
 print(o)   #(iii) interstion of two sets
 print("\n")
 
-#5
-a=input("enter a student name :")
-b=input("enter a marks :")
-d={}
-def b(i):
-    for i in b:
-        k=b[i]
-        return k
 
-for j in a:
-    d[j]=b(i)
-pri(d)
+
+#5
+d = {}
+count = 0
+while count < 10:
+      name = input("Enter your name: ")
+      mark = input("Enter your mark out of 100: ")
+      if name not in d:
+          d[name] = mark
+          count = count + 1
+
+print(d)
+
+
+#6
+s="Misssssissippi"
+count=0
+character="i"
+
+for i in s:
+        if (i == character):
+            count=count+1
+print (count)
+text="ishita"
+def count_chars(text):
+	result = 0
+	for char in text:
+		result += 1     # same as result = result + 1
+	return result
+print (count_chars(text))'''
+
+s="Mississippi"
+d={}
+count=0
+def abc(i):
+    for i in s:
+        if(i==abc[i]):
+            count=count+1
+    return count
+for i in s:
+    d[i]=abc(i)
+print(d)
