@@ -46,7 +46,7 @@ class mythread(threading.Thread):
         threading.Thread.__init__(self)
         self.h = i
 
-    def run(self):'''
+    def run(self):
 
 
 #4
@@ -58,4 +58,4 @@ def sleepMe(i):
     time.sleep(5)
     print("Thread %s is awake now"%i)
 for i in range(10):
-    th=Thread(target=sleepMe, args=(i, ))
+    th=Thread(target=sleepMe, args=(i, ))'''
