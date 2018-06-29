@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b8a9da7-7335-4c1b-b89e-1052bd7e2137" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/28th class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception Handling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web basics &amp; api in pythn.py" beforeDir="false" afterPath="$PROJECT_DIR$/web basics &amp; api in pythn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data type-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data type-2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,62 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="threads nd processes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threads nd processes.py">
+      <file leaf-file-name="Data type-2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data type-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding>
-                <element signature="e#3#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="twitter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="28th class.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/28th class.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exception Handling.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exception Handling.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web basics &amp; api in pythn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web basics &amp; api in pythn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="keys.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keys.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -125,7 +71,6 @@
         <option value="$PROJECT_DIR$/Data type-1.py" />
         <option value="$PROJECT_DIR$/classes nd loops.py" />
         <option value="$PROJECT_DIR$/decision control.py" />
-        <option value="$PROJECT_DIR$/Data type-2.py" />
         <option value="$PROJECT_DIR$/classes nd modules.py" />
         <option value="$PROJECT_DIR$/keys.py" />
         <option value="$PROJECT_DIR$/thread in pythn.py" />
@@ -134,6 +79,7 @@
         <option value="$PROJECT_DIR$/twitter.py" />
         <option value="$PROJECT_DIR$/28th class.py" />
         <option value="$PROJECT_DIR$/Exception Handling.py" />
+        <option value="$PROJECT_DIR$/Data type-2.py" />
       </list>
     </option>
   </component>
@@ -170,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Exception Handling">
+  <component name="RunManager" selected="Python.Data type-2">
     <configuration name="28th class" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="acadview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,6 +130,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28th class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Data type-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="acadview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data type-2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,24 +184,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello world.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="threads nd processes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="acadview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threads nd processes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,18 +228,18 @@
     <list>
       <item itemvalue="Python.hello world" />
       <item itemvalue="Python.twitter" />
-      <item itemvalue="Python.threads nd processes" />
       <item itemvalue="Python.web basics &amp; api in pythn" />
       <item itemvalue="Python.28th class" />
       <item itemvalue="Python.Exception Handling" />
+      <item itemvalue="Python.Data type-2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Data type-2" />
         <item itemvalue="Python.Exception Handling" />
         <item itemvalue="Python.28th class" />
         <item itemvalue="Python.twitter" />
         <item itemvalue="Python.web basics &amp; api in pythn" />
-        <item itemvalue="Python.threads nd processes" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +258,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.23645681" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -580,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data type-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="159" selection-start-line="62" selection-start-column="159" selection-end-line="62" selection-end-column="159" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -695,6 +635,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data type-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

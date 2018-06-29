@@ -1,5 +1,5 @@
 #1
-'''tup1 =('python','c','java')
+tup1 =('python','c','java')
 tup2 =(1,2,3,4)
 tup3 =(1.3,3.6,7.8)
 print(len(tup1+tup2+tup3))
@@ -36,9 +36,10 @@ print("\n")
 
 
 #5
+import operator
 d = {}
 count = 0
-while count < 10:
+while count < 3:
       name = input("Enter your name: ")
       mark = input("Enter your mark out of 100: ")
       if name not in d:
@@ -46,18 +47,23 @@ while count < 10:
           count = count + 1
 
 print(d)
-
-
+print("\n")
 #6
-s="Mississippi"
-d={}
-count=0
-def abc(i):
-    for i in s:
-        if(i==abc[i]):
-            count=count+1
-    return count
-for i in s:
-    d[i]=abc(i)
-print(d)'''
-```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+sorted_d = sorted(d.items(), key=operator.itemgetter(0))
+print('Sorted marks are : ',sorted_d)
+print("\n")
+
+
+
+#7
+def count(str1):
+    dict = {}
+    for n in str1:
+        keys = dict.keys()
+        if n in keys:
+            dict[n] += 1
+        else:
+            dict[n] = 1
+    return dict
+print(count('Mississippi'))
