@@ -4,13 +4,14 @@ import tweepy
 oauth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 oauth.set_access_token(access_token,access_secret)
 api = tweepy.API(oauth)
-print(api.search("#sanju"))
+#print(api.search("#sanju"))
 
-user =api.get_user('ishitanarta')
-print(user.screen_name)
-print(user.followers_count)
+#user =api.get_user('ishitanarta')
+#print(user.screen_name)
+#print(user.followers_count)
 
 #send or spotify grid api access ,sendimal analaysis
-def tweet_status():
-    message = input("What's Happening?...tweet here")
-    api.update_status()
+#def tweet_status():
+   # message = input("What's Happening?...tweet here")
+   # api.update_status()
+public_tweets  = api.search("#RobinSharma")
