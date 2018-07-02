@@ -1,5 +1,5 @@
 #1
-'''f=open("filehandlng.txt",encoding="utf8")
+f=open("filehandlng.txt",encoding="utf8")
 j=(f.readlines())
 j.reverse()
 n=int(input("enter a no. of line you want to"))
@@ -31,7 +31,7 @@ for line in fh.readlines():
 
 fh.close()
 fh2.close()
-o.close()'''
+o.close()
 
 #5
 afile = open("filehandlng.txt", "w" )

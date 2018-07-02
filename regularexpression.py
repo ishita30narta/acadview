@@ -18,3 +18,4 @@ import re
 sentence = "A, very very; irregular_sentence"
 sen=re.sub(r'[,;_\s]',' ',sentence)
 print(sen)
+
