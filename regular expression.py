@@ -8,9 +8,11 @@ ages=re.findall('\d{1,3}',nameage)
 print(ages)'''
 
 
-emails="Ishitanarta@gmail.com" \
-       "abc@gmail.com" \
-       "xyz@gmail.com"
+emails='''
+       Ishitanarta@gmail.com
+       abc@gmail.com
+       xyz@gmail.com
+       '''
 
 
 match=re.findall("[\w.+$%_+-]{1,20}[@][\w]{1,20}[.][\w]{1,3}",emails)
