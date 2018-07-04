@@ -57,50 +57,50 @@ print("DATABASE TABLES")
 #conn.execute("INSERT INTO AUTHORS(AUTHOR_ID,FIRST_NAME,MIDDLE_NAME,LAST_NAME)VALUES(444,'Fiyaz','Alli','Khan')")
 
 
-#cursor = conn.execute("SELECT BOOK_ID,TITLE_ID,LOCATION,GENRE from BOOKS")
-#for row in cursor:
-#   print("BOOK_ID =",row[0])
-#   print("TITLE_ID =",row[1])
-#   print("LOCATION =",row[2])
-#   print("GENRE =",row[3],"\n")
+cursor = conn.execute("SELECT BOOK_ID,TITLE_ID,LOCATION,GENRE from BOOKS")
+for row in cursor:
+   print("BOOK_ID =",row[0])
+   print("TITLE_ID =",row[1])
+   print("LOCATION =",row[2])
+   print("GENRE =",row[3],"\n")
 
-#cursor = conn.execute("SELECT TITLE_ID,TITLE,ISBN,PUBLISHER_ID,PUBLISHER_YEAR from TITLES")
-#for row in cursor:
-#   print("TITLES_ID =",row[0])
-#   print("TITLE =",row[1])
-#   print("ISBN =",row[2])
-#   print("PUBLISHER_ID =",row[3])
-#   print("PUBLISHER_YEAR =", row[4],"\n")
-
-
-#cursor = conn.execute("SELECT PUBLISHERS_ID,NAME,STREET_ADDRESS,SUITE_NUMBER,ZIP_CODE_ID from PUBLISHERS")
-#for row in cursor:
-#   print("PUBLISHERS_ID =",row[0])
-#   print("NAME =",row[1])
-#   print("STREET_ADDRESS =",row[2])
-#   print("SUITE_NUMBER =", row[2])
-#   print("ZIP_CODE_ID =",row[4],"\n")
+cursor = conn.execute("SELECT TITLE_ID,TITLE,ISBN,PUBLISHER_ID,PUBLISHER_YEAR from TITLES")
+for row in cursor:
+   print("TITLES_ID =",row[0])
+   print("TITLE =",row[1])
+   print("ISBN =",row[2])
+   print("PUBLISHER_ID =",row[3])
+   print("PUBLISHER_YEAR =", row[4],"\n")
 
 
-#cursor = conn.execute("SELECT ZIP_CODE_ID,CITY,STATE,ZIP_CODE from ZIPCODES")
-#for row in cursor:
-#   print("ZIP_CODE_ID =",row[0])
-#   print("CITY =",row[1])
-#   print("STATE =",row[2])
-#   print("ZIP_CODE =",row[3],"\n")
+cursor = conn.execute("SELECT PUBLISHERS_ID,NAME,STREET_ADDRESS,SUITE_NUMBER,ZIP_CODE_ID from PUBLISHERS")
+for row in cursor:
+   print("PUBLISHERS_ID =",row[0])
+   print("NAME =",row[1])
+   print("STREET_ADDRESS =",row[2])
+   print("SUITE_NUMBER =", row[2])
+   print("ZIP_CODE_ID =",row[4],"\n")
 
-#cursor = conn.execute("SELECT AUTHOR_TITLE_ID,AUTHOR_ID,TITLE_ID from AUTHOR_TITLES")
-#for row in cursor:
-#   print("AUTHOR_TITLE_ID =",row[0])
-#   print("AUTHOR_ID =",row[1])
-#   print("TITLE_ID =",row[2],"\n")
 
-#cursor = conn.execute("SELECT AUTHOR_ID,FIRST_NAME,MIDDLE_NAME,LAST_NAME from AUTHORS")
-#for row in cursor:
-#   print("AUTHOR_ID =",row[0])
-#   print("FIRST_NAME =",row[1])
-#   print("MIDDLE_NAME =",row[2])
-#   print("LAST_NAME =",row[3],"\n")
+cursor = conn.execute("SELECT ZIP_CODE_ID,CITY,STATE,ZIP_CODE from ZIPCODES")
+for row in cursor:
+   print("ZIP_CODE_ID =",row[0])
+   print("CITY =",row[1])
+   print("STATE =",row[2])
+   print("ZIP_CODE =",row[3],"\n")
+
+cursor = conn.execute("SELECT AUTHOR_TITLE_ID,AUTHOR_ID,TITLE_ID from AUTHOR_TITLES")
+for row in cursor:
+   print("AUTHOR_TITLE_ID =",row[0])
+   print("AUTHOR_ID =",row[1])
+   print("TITLE_ID =",row[2],"\n")
+
+cursor = conn.execute("SELECT AUTHOR_ID,FIRST_NAME,MIDDLE_NAME,LAST_NAME from AUTHORS")
+for row in cursor:
+   print("AUTHOR_ID =",row[0])
+   print("FIRST_NAME =",row[1])
+   print("MIDDLE_NAME =",row[2])
+   print("LAST_NAME =",row[3],"\n")
 
 #2
 
