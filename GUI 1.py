@@ -67,7 +67,7 @@ root.mainloop()'''
 #label.pack()
 #root.mainloop()
 
-from tkinter import *
+'''from tkinter import *
 
 top = Tk()
 Lb = Listbox(top)
@@ -76,7 +76,7 @@ Lb.insert(2, 'c')
 Lb.insert(3, 'HTML')
 Lb.insert(4, 'Javascript')
 Lb.pack()
-top.mainloop()
+top.mainloop()'''
 
 #assignmnt
 #sys.exist() , library for exist
