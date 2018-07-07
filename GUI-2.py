@@ -1,3 +1,4 @@
+#1
 from tkinter import *
 import  tkinter as tk
 #r=tk.Tk()
@@ -12,7 +13,7 @@ for i in DICT:
 mylist.pack(side = LEFT, fill = BOTH)
 scrollbar.config(command = mylist.yview)
 
-
+#2
 def insert():
    DICT['radh']=67
    print(DICT)
