@@ -32,7 +32,6 @@
 a = np.arange(15).reshape(3,5)
 print(a)
 
-print(a.shape)   # rows,column
 print(a.ndim)   # dimensions
 print(a.dtype.name)   #data type
 print(a.itemsize)
